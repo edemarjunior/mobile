@@ -1,0 +1,7 @@
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.AssemblyInfoInputs.cache
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.AssemblyInfo.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\bin\Debug\netstandard2.0\Aplicativo Ble.deps.json
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\bin\Debug\netstandard2.0\Aplicativo Ble.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\bin\Debug\netstandard2.0\Aplicativo Ble.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.pdb

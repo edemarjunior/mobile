@@ -1,0 +1,71 @@
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Aplicativo Ble.iOS.exe
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Aplicativo Ble.iOS.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Acr.Core.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Acr.Core.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BLE.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BLE.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BluetoothLE.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Plugin.BluetoothLE.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\System.Reactive.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\XF.Bluetooth.Printer.Plugin.Abstractions.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\XF.Bluetooth.Printer.Plugin.Abstractions.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\XF.Bluetooth.Printer.Plugin.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\XF.Bluetooth.Printer.Plugin.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Aplicativo Ble.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Aplicativo Ble.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhone\Debug\Aplicativo Ble.dll.mdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\Aplicativo Ble.iOS.csprojAssemblyReference.cache
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\XamlC.stamp
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\Aplicativo Ble.iOS.csproj.CopyComplete
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\Aplicativo Ble.iOS.exe
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\Aplicativo Ble.iOS.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\actool\_PartialAppManifest.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\actool\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\coremlc\_PartialAppManifest.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhone\Debug\device-builds\ipad5.3-13.1.3\optimized\

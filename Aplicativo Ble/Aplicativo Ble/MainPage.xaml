@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Aplicativo_Ble"
+             x:Class="Aplicativo_Ble.MainPage"
+             Title="Registro de presença FURB"
+             IconImageSource="furb_po.jpg">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="5,10">
+                <Label TextColor="Red" FontSize = "20" Text="Para que que seja feito o registro da presença, deve estar com o Bluetooth ligado e o app sempre aberto, podendo estar em segundo plano." />
+            </StackLayout>
+            <Button x:Name="BtnLogin" Text="Iniciar registro de presença" TextColor="White" BorderColor="#CB9600" BackgroundColor="#1E90FF" Clicked="searchDevice" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

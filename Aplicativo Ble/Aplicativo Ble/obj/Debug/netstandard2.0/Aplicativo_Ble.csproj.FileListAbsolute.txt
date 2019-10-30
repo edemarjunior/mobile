@@ -1,0 +1,7 @@
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo_Ble.csprojAssemblyReference.cache
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo_Ble.csproj.CoreCompileInputs.cache
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo_Ble.AssemblyInfoInputs.cache
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo_Ble.AssemblyInfo.cs
