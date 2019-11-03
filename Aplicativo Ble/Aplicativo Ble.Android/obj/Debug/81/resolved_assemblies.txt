@@ -1,4 +1,4 @@
-C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.Android\obj\Debug\81\android\assets\Aplicativo Ble.Android.dll
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.Android\obj\Debug\81\android\assets\Aplicativo_Ble.Android.dll
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.Android\obj\Debug\81\android\assets\Aplicativo Ble.dll
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.Android\obj\Debug\81\android\assets\Java.Interop.dll

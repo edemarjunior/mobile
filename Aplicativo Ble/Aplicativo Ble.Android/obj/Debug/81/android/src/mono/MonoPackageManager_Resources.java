@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Aplicativo Ble.Android.dll" comes first in this list. */
-		"Aplicativo Ble.Android.dll",
+		/* We need to ensure that "Aplicativo_Ble.Android.dll" comes first in this list. */
+		"Aplicativo_Ble.Android.dll",
 		"Aplicativo Ble.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
@@ -38,5 +38,5 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
-	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
+	public static String ApiPackageName = null;
 }

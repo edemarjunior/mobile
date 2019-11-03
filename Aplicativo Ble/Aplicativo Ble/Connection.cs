@@ -19,14 +19,15 @@ namespace Aplicativo_Ble
                 var client = new HttpClient();
                 client.BaseAddress = new Uri("https://api.furb.br");
                 MD5 md5 = MD5.Create();
-                string hash = GetMd5Hash(md5, senha);
-                string jsonData = creatJason(usuario, hash);  
-               
+                string jsonData = creatJason(usuario, senha);  
 
                 var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 HttpResponseMessage response = await client.PostAsync("/user/login", content);
                 var result = await response.Content.ReadAsStringAsync();
-                return result;
+                if (result.Contains("token"))
+                    return "OK";
+                else
+                    return "";
             }
             catch (Exception)
             {
@@ -48,21 +49,5 @@ namespace Aplicativo_Ble
             writer.WriteEnd();
             return sb.ToString().Trim();
         }
-
-        public string GetMd5Hash(MD5 md5Hash, string input)
-        {
-
-            byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
-            StringBuilder sBuilder = new StringBuilder();
-
-            for (int i = 0; i < data.Length; i++)
-            {
-                sBuilder.Append(data[i].ToString("x2"));
-            }
-
-            return sBuilder.ToString();
-        }
-
-
     }
 }

@@ -26,32 +26,27 @@ namespace Aplicativo_Ble
         //define a propriedade IsBusy como true
         private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            //ativa o ActivityIndicator
             this.IsBusy = true;
             Connection connection = new Connection();
-
             var retorno = await connection.getToken(usuario.Text, senha.Text);
-            //retorno.Contains("");
-           // if(retorno == "")
-           // {
-               // await DisplayAlert("Erro", "Usuário ou senha inválidos, tente novamente", "OK");
-               // this.IsBusy = false;
-           // }
-           // else  
-           // {
-               // if (retorno == "405")
-                //{
-                    
-                //    await DisplayAlert("Erro", "Sem conexão com servidor", "OK");
-                //    this.IsBusy = false;
-                //}
-                //else
-                //{
+           
+           if(retorno == "")
+           {
+               await DisplayAlert("Erro", "Usuário ou senha inválidos, tente novamente", "OK");
+               this.IsBusy = false;
+           }
+           else  
+           {
+              if (retorno == "405")
+                {
+                    await DisplayAlert("Erro", "Sem conexão com servidor", "OK");
+                    this.IsBusy = false;
+                }
+                else
+                {
                     Application.Current.MainPage = new NavigationPage(new MainPage(usuario.Text)); 
-                //}
-            //}
-
+                }
+            }
         }
-
     }
 }
