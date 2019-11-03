@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Acr.Core/3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reactive": "4.0.0"
-        },
-        "compile": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        }
-      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -23,7 +11,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.BLE/1.3.0": {
+      "Plugin.BLE/2.1.1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -34,11 +22,10 @@
           "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
         }
       },
-      "Plugin.BluetoothLE/6.2.3": {
+      "Plugin.BluetoothLE/6.2.6": {
         "type": "package",
         "dependencies": {
-          "Acr.Core": "3.0.1",
-          "System.Reactive": "4.0.0"
+          "System.Reactive": "4.1.5"
         },
         "compile": {
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
@@ -47,56 +34,39 @@
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
         }
       },
-      "System.IO/4.0.0": {
+      "System.Net.Http/4.3.4": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "ref/xamarinios10/_._": {}
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
-      "System.Net.Http/4.0.0": {
+      "System.Reactive/4.1.5": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Net.Primitives": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Text.Encoding": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Net.Http.dll": {}
-        }
-      },
-      "System.Net.Primitives/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "System.Reactive/4.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0"
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
           "lib/netstandard2.0/System.Reactive.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Reactive.dll": {}
-        }
-      },
-      "System.Runtime/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
         }
       },
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -109,7 +79,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encoding/4.0.0": {
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -118,16 +88,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Threading.Tasks/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -279,18 +240,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Acr.Core/3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reactive": "4.0.0"
-        },
-        "compile": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        }
-      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -300,7 +249,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.BLE/1.3.0": {
+      "Plugin.BLE/2.1.1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -311,11 +260,10 @@
           "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
         }
       },
-      "Plugin.BluetoothLE/6.2.3": {
+      "Plugin.BluetoothLE/6.2.6": {
         "type": "package",
         "dependencies": {
-          "Acr.Core": "3.0.1",
-          "System.Reactive": "4.0.0"
+          "System.Reactive": "4.1.5"
         },
         "compile": {
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
@@ -324,56 +272,29 @@
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
         }
       },
-      "System.IO/4.0.0": {
+      "System.Net.Http/4.3.4": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "ref/xamarinios10/_._": {}
         },
         "runtime": {
-          "lib/xamarinios10/_._": {}
+          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {}
         }
       },
-      "System.Net.Http/4.0.0": {
+      "System.Reactive/4.1.5": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Net.Primitives": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Text.Encoding": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Net.Http.dll": {}
-        }
-      },
-      "System.Net.Primitives/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "System.Reactive/4.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0"
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
           "lib/netstandard2.0/System.Reactive.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Reactive.dll": {}
-        }
-      },
-      "System.Runtime/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
         }
       },
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -386,7 +307,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encoding/4.0.0": {
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -395,16 +316,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Threading.Tasks/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -556,18 +468,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Acr.Core/3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reactive": "4.0.0"
-        },
-        "compile": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        }
-      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -577,7 +477,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.BLE/1.3.0": {
+      "Plugin.BLE/2.1.1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -588,11 +488,10 @@
           "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
         }
       },
-      "Plugin.BluetoothLE/6.2.3": {
+      "Plugin.BluetoothLE/6.2.6": {
         "type": "package",
         "dependencies": {
-          "Acr.Core": "3.0.1",
-          "System.Reactive": "4.0.0"
+          "System.Reactive": "4.1.5"
         },
         "compile": {
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
@@ -601,8 +500,11 @@
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
         }
       },
-      "System.IO/4.0.0": {
+      "System.Net.Http/4.3.4": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "ref/xamarinios10/_._": {}
         },
@@ -610,47 +512,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Net.Http/4.0.0": {
+      "System.Reactive/4.1.5": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Net.Primitives": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Text.Encoding": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Net.Http.dll": {}
-        }
-      },
-      "System.Net.Primitives/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "System.Reactive/4.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0"
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
           "lib/netstandard2.0/System.Reactive.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Reactive.dll": {}
-        }
-      },
-      "System.Runtime/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
         }
       },
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -663,7 +535,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encoding/4.0.0": {
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -672,16 +544,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Threading.Tasks/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -833,18 +696,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Acr.Core/3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reactive": "4.0.0"
-        },
-        "compile": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Acr.Core.dll": {}
-        }
-      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -854,7 +705,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.BLE/1.3.0": {
+      "Plugin.BLE/2.1.1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -865,11 +716,10 @@
           "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
         }
       },
-      "Plugin.BluetoothLE/6.2.3": {
+      "Plugin.BluetoothLE/6.2.6": {
         "type": "package",
         "dependencies": {
-          "Acr.Core": "3.0.1",
-          "System.Reactive": "4.0.0"
+          "System.Reactive": "4.1.5"
         },
         "compile": {
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
@@ -878,8 +728,11 @@
           "lib/xamarinios10/Plugin.BluetoothLE.dll": {}
         }
       },
-      "System.IO/4.0.0": {
+      "System.Net.Http/4.3.4": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "ref/xamarinios10/_._": {}
         },
@@ -887,47 +740,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Net.Http/4.0.0": {
+      "System.Reactive/4.1.5": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Net.Primitives": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Text.Encoding": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Net.Http.dll": {}
-        }
-      },
-      "System.Net.Primitives/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "System.Reactive/4.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0"
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
           "lib/netstandard2.0/System.Reactive.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Reactive.dll": {}
-        }
-      },
-      "System.Runtime/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
         }
       },
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -940,7 +763,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Text.Encoding/4.0.0": {
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -949,16 +772,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "System.Threading.Tasks/4.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/xamarinios10/_._": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/_._": {}
-        }
-      },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1111,32 +925,6 @@
     }
   },
   "libraries": {
-    "Acr.Core/3.0.1": {
-      "sha512": "z/fMPWr20GKS96pf8uj1d1YRYVneE5MDH4mtXqiCbFyF6ntoTDRO/1fSWsKGTQ/ZYju3b3Y6h9+jKl2lPPzxkw==",
-      "type": "package",
-      "path": "acr.core/3.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "acr.core.3.0.1.nupkg.sha512",
-        "acr.core.nuspec",
-        "lib/monoandroid80/Acr.Core.dll",
-        "lib/monoandroid80/Acr.Core.dll.mdb",
-        "lib/monoandroid80/Acr.Core.pdb",
-        "lib/netstandard2.0/Acr.Core.dll",
-        "lib/netstandard2.0/Acr.Core.pdb",
-        "lib/uap10.0/Acr.Core.dll",
-        "lib/uap10.0/Acr.Core.pdb",
-        "lib/uap10.0/Acr.Core.pri",
-        "lib/xamarinios10/Acr.Core.dll",
-        "lib/xamarinios10/Acr.Core.dll.mdb",
-        "lib/xamarinios10/Acr.Core.pdb",
-        "lib/xamarinmac20/Acr.Core.dll",
-        "lib/xamarinmac20/Acr.Core.pdb",
-        "lib/xamarintvos10/Acr.Core.dll",
-        "lib/xamarintvos10/Acr.Core.pdb"
-      ]
-    },
     "Newtonsoft.Json/12.0.2": {
       "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
@@ -1167,198 +955,113 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Plugin.BLE/1.3.0": {
-      "sha512": "5sD/YwTADSWES04iY28+Wc2alvq5kdPeH24oZuQxNiDTL0eAyxioJWdQ0JuKH6GyWNd9Zmv5006sgYcbNVwSwQ==",
+    "Plugin.BLE/2.1.1": {
+      "sha512": "kVEP+SA/QFMR72YgcvcebwCXfVsiKrD6pF7wn0JCwjunriBmCjnNQfLyVmhxGE24jjS4bDJfeOiDv8dA+k/Psg==",
       "type": "package",
-      "path": "plugin.ble/1.3.0",
+      "path": "plugin.ble/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid/Plugin.BLE.Abstractions.XML",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.deps.json",
         "lib/MonoAndroid/Plugin.BLE.Abstractions.dll",
-        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll.mdb",
         "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
         "lib/MonoAndroid/Plugin.BLE.XML",
         "lib/MonoAndroid/Plugin.BLE.dll",
-        "lib/MonoAndroid/Plugin.BLE.dll.mdb",
         "lib/MonoAndroid/Plugin.BLE.pdb",
-        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.XML",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll.mdb",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.pdb",
         "lib/Xamarin.iOS10/Plugin.BLE.XML",
         "lib/Xamarin.iOS10/Plugin.BLE.dll",
-        "lib/Xamarin.iOS10/Plugin.BLE.dll.mdb",
         "lib/Xamarin.iOS10/Plugin.BLE.pdb",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.XML",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.pdb",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.XML",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.pdb",
-        "plugin.ble.1.3.0.nupkg.sha512",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.dll",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.pdb",
+        "lib/netstandard2.0/Plugin.BLE.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.dll",
+        "lib/netstandard2.0/Plugin.BLE.pdb",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
+        "lib/xamarinmac20/Plugin.BLE.macOS.dll",
+        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
+        "plugin.ble.2.1.1.nupkg.sha512",
         "plugin.ble.nuspec"
       ]
     },
-    "Plugin.BluetoothLE/6.2.3": {
-      "sha512": "WU7POyCxjkMdKxFKu/7eY11efepzgixb6aFD8+Xu5M1VDF2n+ek/88rtBMCMxdHpSjgEgyoBgYu6NXjcSC3JLw==",
+    "Plugin.BluetoothLE/6.2.6": {
+      "sha512": "ubsLipKVY/acWfZ2+P1DvLd77y84pRGLHEG7muzR2qpMjk9l8zXLihadHT/gKOv0eMToD+i50DN0caaPW3vwzw==",
       "type": "package",
-      "path": "plugin.bluetoothle/6.2.3",
+      "path": "plugin.bluetoothle/6.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/monoandroid80/Plugin.BluetoothLE.dll",
-        "lib/monoandroid80/Plugin.BluetoothLE.dll.mdb",
-        "lib/monoandroid80/Plugin.BluetoothLE.pdb",
+        "lib/monoandroid81/Plugin.BluetoothLE.dll",
+        "lib/monoandroid81/Plugin.BluetoothLE.dll.mdb",
+        "lib/monoandroid81/Plugin.BluetoothLE.pdb",
+        "lib/monoandroid90/Plugin.BluetoothLE.dll",
+        "lib/monoandroid90/Plugin.BluetoothLE.pdb",
         "lib/netstandard2.0/Plugin.BluetoothLE.dll",
         "lib/netstandard2.0/Plugin.BluetoothLE.pdb",
-        "lib/uap10.0/Plugin.BluetoothLE.dll",
-        "lib/uap10.0/Plugin.BluetoothLE.pdb",
-        "lib/uap10.0/Plugin.BluetoothLE.pri",
+        "lib/uap10.0.16299/Plugin.BluetoothLE.dll",
+        "lib/uap10.0.16299/Plugin.BluetoothLE.pdb",
+        "lib/uap10.0.16299/Plugin.BluetoothLE.pri",
         "lib/xamarinios10/Plugin.BluetoothLE.dll",
-        "lib/xamarinios10/Plugin.BluetoothLE.dll.mdb",
         "lib/xamarinios10/Plugin.BluetoothLE.pdb",
         "lib/xamarinmac20/Plugin.BluetoothLE.dll",
         "lib/xamarinmac20/Plugin.BluetoothLE.pdb",
         "lib/xamarintvos10/Plugin.BluetoothLE.dll",
         "lib/xamarintvos10/Plugin.BluetoothLE.pdb",
-        "plugin.bluetoothle.6.2.3.nupkg.sha512",
+        "plugin.bluetoothle.6.2.6.nupkg.sha512",
         "plugin.bluetoothle.nuspec"
       ]
     },
-    "System.IO/4.0.0": {
-      "sha512": "MoCHQ0u5n0OMwUS8OX4Gl48qKiQziSW5cXvt82d+MmAcsLq9OL90+ihnu/aJ1h6OOYcBswrZAEuApfZha9w2lg==",
+    "System.Net.Http/4.3.4": {
+      "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
       "type": "package",
-      "path": "system.io/4.0.0",
+      "path": "system.net.http/4.3.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "License.rtf",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/Xamarinmac20/_._",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
         "lib/net45/_._",
+        "lib/net46/System.Net.Http.dll",
+        "lib/portable-net45+win8+wpa81/_._",
         "lib/win8/_._",
-        "lib/wp80/_._",
         "lib/wpa81/_._",
         "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet/System.IO.dll",
-        "ref/dotnet/System.IO.xml",
-        "ref/dotnet/de/System.IO.xml",
-        "ref/dotnet/es/System.IO.xml",
-        "ref/dotnet/fr/System.IO.xml",
-        "ref/dotnet/it/System.IO.xml",
-        "ref/dotnet/ja/System.IO.xml",
-        "ref/dotnet/ko/System.IO.xml",
-        "ref/dotnet/ru/System.IO.xml",
-        "ref/dotnet/zh-hans/System.IO.xml",
-        "ref/dotnet/zh-hant/System.IO.xml",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/Xamarinmac20/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
         "ref/net45/_._",
-        "ref/netcore50/System.IO.dll",
-        "ref/netcore50/System.IO.xml",
-        "ref/netcore50/de/System.IO.xml",
-        "ref/netcore50/es/System.IO.xml",
-        "ref/netcore50/fr/System.IO.xml",
-        "ref/netcore50/it/System.IO.xml",
-        "ref/netcore50/ja/System.IO.xml",
-        "ref/netcore50/ko/System.IO.xml",
-        "ref/netcore50/ru/System.IO.xml",
-        "ref/netcore50/zh-hans/System.IO.xml",
-        "ref/netcore50/zh-hant/System.IO.xml",
+        "ref/net46/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/netstandard1.1/System.Net.Http.dll",
+        "ref/netstandard1.3/System.Net.Http.dll",
+        "ref/portable-net45+win8+wpa81/_._",
         "ref/win8/_._",
-        "ref/wp80/_._",
         "ref/wpa81/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "system.io.4.0.0.nupkg.sha512",
-        "system.io.nuspec"
-      ]
-    },
-    "System.Net.Http/4.0.0": {
-      "sha512": "mZuAl7jw/mFY8jUq4ITKECxVBh9a8SJt9BC/+lJbmo7cRKspxE3PsITz+KiaCEsexN5WYPzwBOx0oJH/0HlPyQ==",
-      "type": "package",
-      "path": "system.net.http/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        "lib/DNXCore50/System.Net.Http.dll",
-        "lib/net45/_._",
-        "lib/netcore50/System.Net.Http.dll",
-        "lib/win8/_._",
-        "lib/wpa81/_._",
-        "ref/dotnet/System.Net.Http.dll",
-        "ref/dotnet/System.Net.Http.xml",
-        "ref/dotnet/de/System.Net.Http.xml",
-        "ref/dotnet/es/System.Net.Http.xml",
-        "ref/dotnet/fr/System.Net.Http.xml",
-        "ref/dotnet/it/System.Net.Http.xml",
-        "ref/dotnet/ja/System.Net.Http.xml",
-        "ref/dotnet/ko/System.Net.Http.xml",
-        "ref/dotnet/ru/System.Net.Http.xml",
-        "ref/dotnet/zh-hans/System.Net.Http.xml",
-        "ref/dotnet/zh-hant/System.Net.Http.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.Net.Http.dll",
-        "ref/netcore50/System.Net.Http.xml",
-        "ref/win8/_._",
-        "ref/wpa81/_._",
-        "system.net.http.4.0.0.nupkg.sha512",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
+        "runtimes/win/lib/net46/System.Net.Http.dll",
+        "runtimes/win/lib/netcore50/System.Net.Http.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "system.net.http.4.3.4.nupkg.sha512",
         "system.net.http.nuspec"
       ]
     },
-    "System.Net.Primitives/4.0.0": {
-      "sha512": "RcWCfqEPIGdytI4grLSG6LFe270154kMvuOs/pU+VzlKbjnW+h2c6jWf4r/tqzAELiBhibGHE2MGn+SLtl+fZg==",
+    "System.Reactive/4.1.5": {
+      "sha512": "guil0zF8UboWgGaAxgD5LxL8ZGamrkSo/HLsROaUCAUlSrnBhz0McOGwY1CcnP00pvwt6q40EMs3ErhCOXsqfw==",
       "type": "package",
-      "path": "system.net.primitives/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License.rtf",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/win8/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet/System.Net.Primitives.dll",
-        "ref/dotnet/System.Net.Primitives.xml",
-        "ref/dotnet/de/System.Net.Primitives.xml",
-        "ref/dotnet/es/System.Net.Primitives.xml",
-        "ref/dotnet/fr/System.Net.Primitives.xml",
-        "ref/dotnet/it/System.Net.Primitives.xml",
-        "ref/dotnet/ja/System.Net.Primitives.xml",
-        "ref/dotnet/ko/System.Net.Primitives.xml",
-        "ref/dotnet/ru/System.Net.Primitives.xml",
-        "ref/dotnet/zh-hans/System.Net.Primitives.xml",
-        "ref/dotnet/zh-hant/System.Net.Primitives.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.Net.Primitives.dll",
-        "ref/netcore50/System.Net.Primitives.xml",
-        "ref/netcore50/de/System.Net.Primitives.xml",
-        "ref/netcore50/es/System.Net.Primitives.xml",
-        "ref/netcore50/fr/System.Net.Primitives.xml",
-        "ref/netcore50/it/System.Net.Primitives.xml",
-        "ref/netcore50/ja/System.Net.Primitives.xml",
-        "ref/netcore50/ko/System.Net.Primitives.xml",
-        "ref/netcore50/ru/System.Net.Primitives.xml",
-        "ref/netcore50/zh-hans/System.Net.Primitives.xml",
-        "ref/netcore50/zh-hant/System.Net.Primitives.xml",
-        "ref/win8/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "system.net.primitives.4.0.0.nupkg.sha512",
-        "system.net.primitives.nuspec"
-      ]
-    },
-    "System.Reactive/4.0.0": {
-      "sha512": "yaVAxT2Yl28p9+DupGwj2oPbIOYZUQimOQ+n7N7vML2oofIRj9BmcfD7DHc6FLrNah65EigOgG6U9VnwWEyz5g==",
-      "type": "package",
-      "path": "system.reactive/4.0.0",
+      "path": "system.reactive/4.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1372,58 +1075,8 @@
         "lib/uap10.0/System.Reactive.dll",
         "lib/uap10.0/System.Reactive.pri",
         "lib/uap10.0/System.Reactive.xml",
-        "system.reactive.4.0.0.nupkg.sha512",
+        "system.reactive.4.1.5.nupkg.sha512",
         "system.reactive.nuspec"
-      ]
-    },
-    "System.Runtime/4.0.0": {
-      "sha512": "Uq9epame8hEqJlj4KaWb67dDJvj4IM37jRFGVeFbugRdPz48bR0voyBhrbf3iSa2tAmlkg4lsa6BUOL9iwlMew==",
-      "type": "package",
-      "path": "system.runtime/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License.rtf",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet/System.Runtime.dll",
-        "ref/dotnet/System.Runtime.xml",
-        "ref/dotnet/de/System.Runtime.xml",
-        "ref/dotnet/es/System.Runtime.xml",
-        "ref/dotnet/fr/System.Runtime.xml",
-        "ref/dotnet/it/System.Runtime.xml",
-        "ref/dotnet/ja/System.Runtime.xml",
-        "ref/dotnet/ko/System.Runtime.xml",
-        "ref/dotnet/ru/System.Runtime.xml",
-        "ref/dotnet/zh-hans/System.Runtime.xml",
-        "ref/dotnet/zh-hant/System.Runtime.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.Runtime.dll",
-        "ref/netcore50/System.Runtime.xml",
-        "ref/netcore50/de/System.Runtime.xml",
-        "ref/netcore50/es/System.Runtime.xml",
-        "ref/netcore50/fr/System.Runtime.xml",
-        "ref/netcore50/it/System.Runtime.xml",
-        "ref/netcore50/ja/System.Runtime.xml",
-        "ref/netcore50/ko/System.Runtime.xml",
-        "ref/netcore50/ru/System.Runtime.xml",
-        "ref/netcore50/zh-hans/System.Runtime.xml",
-        "ref/netcore50/zh-hant/System.Runtime.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "system.runtime.4.0.0.nupkg.sha512",
-        "system.runtime.nuspec"
       ]
     },
     "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -1487,110 +1140,45 @@
         "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
-    "System.Text.Encoding/4.0.0": {
-      "sha512": "AMxFNOXpA6Ab8swULbXuJmoT2K5w6TnV3ObF5wsmEcIHQUJghoZtDVfVHb08O2wW15mOSI1i9Wg0Dx0pY13o8g==",
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "type": "package",
-      "path": "system.text.encoding/4.0.0",
+      "path": "system.threading.tasks.extensions/4.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "License.rtf",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/dotnet/System.Text.Encoding.dll",
-        "ref/dotnet/System.Text.Encoding.xml",
-        "ref/dotnet/de/System.Text.Encoding.xml",
-        "ref/dotnet/es/System.Text.Encoding.xml",
-        "ref/dotnet/fr/System.Text.Encoding.xml",
-        "ref/dotnet/it/System.Text.Encoding.xml",
-        "ref/dotnet/ja/System.Text.Encoding.xml",
-        "ref/dotnet/ko/System.Text.Encoding.xml",
-        "ref/dotnet/ru/System.Text.Encoding.xml",
-        "ref/dotnet/zh-hans/System.Text.Encoding.xml",
-        "ref/dotnet/zh-hant/System.Text.Encoding.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.Text.Encoding.dll",
-        "ref/netcore50/System.Text.Encoding.xml",
-        "ref/netcore50/de/System.Text.Encoding.xml",
-        "ref/netcore50/es/System.Text.Encoding.xml",
-        "ref/netcore50/fr/System.Text.Encoding.xml",
-        "ref/netcore50/it/System.Text.Encoding.xml",
-        "ref/netcore50/ja/System.Text.Encoding.xml",
-        "ref/netcore50/ko/System.Text.Encoding.xml",
-        "ref/netcore50/ru/System.Text.Encoding.xml",
-        "ref/netcore50/zh-hans/System.Text.Encoding.xml",
-        "ref/netcore50/zh-hant/System.Text.Encoding.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/netcoreapp2.1/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "system.text.encoding.4.0.0.nupkg.sha512",
-        "system.text.encoding.nuspec"
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "System.Threading.Tasks/4.0.0": {
-      "sha512": "dA3y1B6Pc8mNt9obhEWWGGpvEakS51+nafXpmM/Z8IF847GErLXGTjdfA+AYEKszfFbH7SVLWUklXhYeeSQ1lw==",
+    "Xamarin.Forms/4.3.0.908675": {
+      "sha512": "kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
       "type": "package",
-      "path": "system.threading.tasks/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License.rtf",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet/System.Threading.Tasks.dll",
-        "ref/dotnet/System.Threading.Tasks.xml",
-        "ref/dotnet/de/System.Threading.Tasks.xml",
-        "ref/dotnet/es/System.Threading.Tasks.xml",
-        "ref/dotnet/fr/System.Threading.Tasks.xml",
-        "ref/dotnet/it/System.Threading.Tasks.xml",
-        "ref/dotnet/ja/System.Threading.Tasks.xml",
-        "ref/dotnet/ko/System.Threading.Tasks.xml",
-        "ref/dotnet/ru/System.Threading.Tasks.xml",
-        "ref/dotnet/zh-hans/System.Threading.Tasks.xml",
-        "ref/dotnet/zh-hant/System.Threading.Tasks.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.Threading.Tasks.dll",
-        "ref/netcore50/System.Threading.Tasks.xml",
-        "ref/netcore50/de/System.Threading.Tasks.xml",
-        "ref/netcore50/es/System.Threading.Tasks.xml",
-        "ref/netcore50/fr/System.Threading.Tasks.xml",
-        "ref/netcore50/it/System.Threading.Tasks.xml",
-        "ref/netcore50/ja/System.Threading.Tasks.xml",
-        "ref/netcore50/ko/System.Threading.Tasks.xml",
-        "ref/netcore50/ru/System.Threading.Tasks.xml",
-        "ref/netcore50/zh-hans/System.Threading.Tasks.xml",
-        "ref/netcore50/zh-hant/System.Threading.Tasks.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "system.threading.tasks.4.0.0.nupkg.sha512",
-        "system.threading.tasks.nuspec"
-      ]
-    },
-    "Xamarin.Forms/4.2.0.848062": {
-      "sha512": "/JIC5p3M9h0MdSg+uH3Hy260YIWkXrQA8m4yO/3TQhSSIe+FNwyPi0SkIomvikunWXu6rEJh/aDbFYEyks0mbw==",
-      "type": "package",
-      "path": "xamarin.forms/4.2.0.848062",
+      "path": "xamarin.forms/4.3.0.908675",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1818,9 +1406,11 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
@@ -1829,7 +1419,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.848062.nupkg.sha512",
+        "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1865,11 +1455,11 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Aplicativo Ble >= 1.0.0",
-      "Plugin.BLE >= 1.3.0",
-      "Plugin.BluetoothLE >= 6.2.3",
-      "System.Net.Http >= 4.0.0",
+      "Plugin.BLE >= 2.1.1",
+      "Plugin.BluetoothLE >= 6.2.6",
+      "System.Net.Http >= 4.3.4",
       "XF.Bluetooth.Printer.Plugin >= 1.0.0",
-      "Xamarin.Forms >= 4.2.0.848062"
+      "Xamarin.Forms >= 4.3.0.908675"
     ]
   },
   "packageFolders": {
@@ -1916,15 +1506,15 @@
         "dependencies": {
           "Plugin.BLE": {
             "target": "Package",
-            "version": "[1.3.0, )"
+            "version": "[2.1.1, )"
           },
           "Plugin.BluetoothLE": {
             "target": "Package",
-            "version": "[6.2.3, )"
+            "version": "[6.2.6, )"
           },
           "System.Net.Http": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.3.4, )"
           },
           "XF.Bluetooth.Printer.Plugin": {
             "target": "Package",
@@ -1932,7 +1522,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.848062, )"
+            "version": "[4.3.0.908675, )"
           }
         }
       }
@@ -1948,46 +1538,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Downgrade de pacote detectado: System.Net.Http de 4.3.4 para 4.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Aplicativo Ble.iOS -> Aplicativo Ble -> System.Net.Http (>= 4.3.4) \r\n Aplicativo Ble.iOS -> System.Net.Http (>= 4.0.0)",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Downgrade de pacote detectado: Plugin.BluetoothLE de 6.2.6 para 6.2.3. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Aplicativo Ble.iOS -> Aplicativo Ble -> Plugin.BluetoothLE (>= 6.2.6) \r\n Aplicativo Ble.iOS -> Plugin.BluetoothLE (>= 6.2.3)",
-      "libraryId": "Plugin.BluetoothLE",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Downgrade de pacote detectado: Xamarin.Forms de 4.3.0.908675 para 4.2.0.848062. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Aplicativo Ble.iOS -> Aplicativo Ble -> Xamarin.Forms (>= 4.3.0.908675) \r\n Aplicativo Ble.iOS -> Xamarin.Forms (>= 4.2.0.848062)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

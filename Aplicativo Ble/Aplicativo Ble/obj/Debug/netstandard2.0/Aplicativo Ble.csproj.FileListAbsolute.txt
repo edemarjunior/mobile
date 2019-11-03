@@ -9,3 +9,4 @@ C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\bin
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.dll
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.pdb
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble\obj\Debug\netstandard2.0\Aplicativo Ble.csprojAssemblyReference.cache
