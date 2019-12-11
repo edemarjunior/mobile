@@ -5,8 +5,6 @@ C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.csprojAssemblyReference.cache
-C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.exe
-C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.pdb
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Aplicativo Ble.iOS.exe
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Aplicativo Ble.iOS.pdb
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
@@ -65,6 +63,7 @@ C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\XF.Bluetooth.Printer.Plugin.pdb
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Aplicativo Ble.dll
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Aplicativo Ble.pdb
-C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\bin\iPhoneSimulator\Debug\Aplicativo Ble.dll.mdb
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.csproj.CopyComplete
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.exe
+C:\Users\Edemar JR\source\repos\Aplicativo Ble\Aplicativo Ble\Aplicativo Ble.iOS\obj\iPhoneSimulator\Debug\Aplicativo Ble.iOS.pdb

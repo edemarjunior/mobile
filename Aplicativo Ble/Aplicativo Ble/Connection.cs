@@ -19,6 +19,8 @@ namespace Aplicativo_Ble
                 var client = new HttpClient();
                 client.BaseAddress = new Uri("https://api.furb.br");
                 MD5 md5 = MD5.Create();
+
+
                 string jsonData = creatJason(usuario, senha);  
 
                 var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -27,7 +29,7 @@ namespace Aplicativo_Ble
                 if (result.Contains("token"))
                     return "OK";
                 else
-                    return "";
+                  return "";
             }
             catch (Exception)
             {

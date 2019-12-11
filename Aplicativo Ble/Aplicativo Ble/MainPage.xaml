@@ -8,7 +8,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Padding="5,10">
+            <StackLayout HorizontalOptions="FillAndExpand" Padding="0, 0, 0, 350" Spacing="0">
                 <Label TextColor="Red" FontSize = "20" Text="Para que que seja feito o registro da presença, deve estar com o Bluetooth ligado e o app sempre aberto, podendo estar em segundo plano." />
             </StackLayout>
             <Button x:Name="BtnLogin" Text="Iniciar registro de presença" TextColor="White" BorderColor="#CB9600" BackgroundColor="#1E90FF" Clicked="searchDevice" />
